@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="untitled"
+		module="untitled_2.11"
+		revision="1.0"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170117121410"/>
+	<dependencies>
+		<module organisation="spark.jobserver" name="jobserver-server-api_2.11">
+			<revision name="0.6.2" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="untitled" name="untitled_2.11" conf="provided" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
